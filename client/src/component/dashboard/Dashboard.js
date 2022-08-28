@@ -32,7 +32,7 @@ class Dashboard extends Component {
 				dashboardContent = (
 					<div>
 						<p className='lead text-muted'>
-							Welcome <Link className='' to={`/profile/${profile.handle}`}>{profile.user.name}</Link>
+							Welcome Mr.<Link className='' to={`/profile/${profile.handle}`}>{profile.user.name} </Link>
 						</p>
 						<ProfileActions />
 						<h4 className="mb-2">Experience Credentials</h4>
